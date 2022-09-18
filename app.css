@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
+
+body {
+    background-color: #787879;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23000000' fill-opacity='0.05'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-principal {
+    width: 100%;
+    height: 70px;
+    background: #444;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(26, 26, 26) 0px 0px 0px 3px;
+}
+
+.nav-principal .logo-nav img {
+    border-radius: 80%;
+}
+
+.nav-principal .logo-nav {
+    position: absolute;
+    left: 90%;
+    margin-left: -100px;
+    padding-top: 0.9rem;
+}
+
+.nav-principal ul {
+    float: left;
+}
+.nav-principal ul li {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #000;
+    margin-left: 20px;
+}
+
+.nav-principal ul li a {
+    color: rgba(255, 255, 255, 0.839);
+    text-decoration: none;
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav-principal ul li a:hover{
+    color: rgb(246, 234, 0);
+}
+
+.main {
+    display: flex;
+    flex: 0 1 auto;
+    max-width: 1280px;
+    margin: auto;
+}
+
+
+/*banner*/
+.carouse {
+    width: 100%;
+}
+
+.carouse ul {
+    list-style: none;
+    margin: 10px 0px 20px 0px;
+}
+
+.carouse img {
+    width: 700px;
+    border-radius: 10px;
+}
+/* Footer*/
+
+.rodape {
+    background:#444;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(54, 54, 54) 0px 0px 0px 3px;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    padding: 25px 0;
+}
+
+.rodape .copy{
+    color: #fff;
+    padding-left: 25px;
+}
+
+.rodape .devsId {
+    font-size: 10px;
+    color: rgb(253, 251, 251);
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.rodape .devsId span {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
